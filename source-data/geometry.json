@@ -1,0 +1,77 @@
+[
+  {
+    "record": "geometry-1",
+    "availableFrom": 1,
+    "kind": "solution",
+    "payload": {
+      "solve": "P1",
+      "capture": "C42",
+      "footprint": [
+        "A1",
+        "A2"
+      ],
+      "hot": [
+        {
+          "cell": "A1",
+          "temperature": 74
+        }
+      ]
+    }
+  },
+  {
+    "record": "geometry-2",
+    "availableFrom": 1,
+    "kind": "solution",
+    "payload": {
+      "solve": "P1",
+      "capture": "C43",
+      "footprint": [
+        "A2",
+        "A3"
+      ],
+      "hot": [
+        {
+          "cell": "A3",
+          "temperature": 83
+        }
+      ]
+    }
+  },
+  {
+    "record": "geometry-3",
+    "availableFrom": 3,
+    "kind": "solution",
+    "payload": {
+      "solve": "P2",
+      "capture": "C42",
+      "footprint": [
+        "A2",
+        "A3"
+      ],
+      "hot": [
+        {
+          "cell": "A2",
+          "temperature": 74
+        }
+      ]
+    }
+  },
+  {
+    "record": "geometry-4",
+    "availableFrom": 4,
+    "kind": "solution",
+    "payload": {
+      "solve": "P2",
+      "capture": "C44",
+      "footprint": [
+        "A3"
+      ],
+      "hot": [
+        {
+          "cell": "A3",
+          "temperature": 77
+        }
+      ]
+    }
+  }
+]

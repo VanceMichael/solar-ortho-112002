@@ -1,0 +1,83 @@
+[
+  {
+    "record": "imagery-1",
+    "availableFrom": 1,
+    "kind": "index",
+    "payload": {
+      "capture": "C42",
+      "time": "10:02",
+      "bands": {
+        "IR": "t42.pgm",
+        "RGB": "v42.ppm"
+      },
+      "solve": "P1"
+    }
+  },
+  {
+    "record": "imagery-2",
+    "availableFrom": 1,
+    "kind": "received",
+    "payload": {
+      "capture": "C42",
+      "name": "v42.ppm",
+      "located": true
+    }
+  },
+  {
+    "record": "imagery-3",
+    "availableFrom": 1,
+    "kind": "index",
+    "payload": {
+      "capture": "C43",
+      "time": "10:04",
+      "bands": {
+        "IR": "t43.pgm"
+      },
+      "solve": "P1"
+    }
+  },
+  {
+    "record": "imagery-4",
+    "availableFrom": 1,
+    "kind": "received",
+    "payload": {
+      "capture": "C43",
+      "name": "t43.pgm",
+      "located": true,
+      "saturated": true
+    }
+  },
+  {
+    "record": "imagery-5",
+    "availableFrom": 2,
+    "kind": "received",
+    "payload": {
+      "capture": "C42",
+      "name": "t42.pgm",
+      "located": true
+    }
+  },
+  {
+    "record": "imagery-6",
+    "availableFrom": 4,
+    "kind": "index",
+    "payload": {
+      "capture": "C44",
+      "time": "13:04",
+      "bands": {
+        "IR": "t44.pgm"
+      },
+      "solve": "P2"
+    }
+  },
+  {
+    "record": "imagery-7",
+    "availableFrom": 4,
+    "kind": "received",
+    "payload": {
+      "capture": "C44",
+      "name": "t44.pgm",
+      "located": true
+    }
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "record": "assets-1",
+    "availableFrom": 1,
+    "kind": "install",
+    "payload": {
+      "cell": "A1",
+      "panel": "P11",
+      "range": [
+        "00:00",
+        "11:00"
+      ]
+    }
+  },
+  {
+    "record": "assets-2",
+    "availableFrom": 1,
+    "kind": "install",
+    "payload": {
+      "cell": "A2",
+      "panel": "P12",
+      "range": [
+        "00:00",
+        "24:00"
+      ]
+    }
+  },
+  {
+    "record": "assets-3",
+    "availableFrom": 1,
+    "kind": "install",
+    "payload": {
+      "cell": "A3",
+      "panel": "P13",
+      "range": [
+        "00:00",
+        "24:00"
+      ]
+    }
+  },
+  {
+    "record": "assets-4",
+    "availableFrom": 1,
+    "kind": "rule",
+    "payload": {
+      "coverageWindow": [
+        "09:00",
+        "11:00"
+      ],
+      "issueFrom": 70,
+      "requiredBands": [
+        "IR"
+      ]
+    }
+  },
+  {
+    "record": "assets-5",
+    "availableFrom": 2,
+    "kind": "accept",
+    "payload": {
+      "order": "WO6",
+      "panel": "P11",
+      "capture": "C42",
+      "solve": "P1",
+      "time": "10:26"
+    }
+  },
+  {
+    "record": "assets-6",
+    "availableFrom": 3,
+    "kind": "install",
+    "payload": {
+      "cell": "A1",
+      "panel": "P31",
+      "range": [
+        "11:00",
+        "24:00"
+      ]
+    }
+  }
+]

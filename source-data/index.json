@@ -1,0 +1,24 @@
+{
+  "sources": [
+    "imagery",
+    "geometry",
+    "assets"
+  ],
+  "stages": 4,
+  "originals": [
+    "v42.ppm",
+    "t42.pgm",
+    "t43.pgm",
+    "t44.pgm"
+  ],
+  "originalStages": {
+    "t42.pgm": 2,
+    "t44.pgm": 4
+  },
+  "digests": {
+    "v42.ppm": "827dbbada14766f89965b89e472906452f6ae542f98db092c4936abbe6fea129",
+    "t42.pgm": "e7e1d9bb8103cdd22fd5f2011a4fc636e33a4c471c6de7a2e4cd6aaba6bf40dd",
+    "t43.pgm": "1df19237ad9d788df0b1c14c9d374a7dbf385e8a67826aabe5d9a3495bfadb91",
+    "t44.pgm": "a3226dbbdb0ac368312e506721d23e96ad8e58f09ce37b68ea6588813fdf4b28"
+  }
+}
