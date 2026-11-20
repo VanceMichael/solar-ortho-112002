@@ -73,5 +73,152 @@
         }
       ]
     }
+  },
+  {
+    "record": "geometry-5",
+    "availableFrom": 1,
+    "kind": "solution",
+    "payload": {
+      "solve": "P1",
+      "capture": "C45",
+      "footprint": [
+        "A1",
+        "A2"
+      ],
+      "hot": [
+        {
+          "cell": "A2",
+          "temperature": 61
+        }
+      ]
+    }
+  },
+  {
+    "record": "geometry-6",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C42",
+      "cell": "A1",
+      "validRects": [
+        [0, 0, 2000, 900]
+      ],
+      "maskedRects": [
+        [0, 750, 2000, 1000]
+      ]
+    }
+  },
+  {
+    "record": "geometry-7",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C42",
+      "cell": "A2",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-8",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C43",
+      "cell": "A2",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-9",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C43",
+      "cell": "A3",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-10",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C45",
+      "cell": "A1",
+      "validRects": [
+        [0, 700, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-11",
+    "availableFrom": 1,
+    "kind": "area",
+    "payload": {
+      "solve": "P1",
+      "capture": "C45",
+      "cell": "A2",
+      "validRects": [],
+      "maskedRects": [
+        [0, 0, 300, 1000]
+      ]
+    }
+  },
+  {
+    "record": "geometry-12",
+    "availableFrom": 3,
+    "kind": "area",
+    "payload": {
+      "solve": "P2",
+      "capture": "C42",
+      "cell": "A2",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-13",
+    "availableFrom": 3,
+    "kind": "area",
+    "payload": {
+      "solve": "P2",
+      "capture": "C42",
+      "cell": "A3",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
+  },
+  {
+    "record": "geometry-14",
+    "availableFrom": 4,
+    "kind": "area",
+    "payload": {
+      "solve": "P2",
+      "capture": "C44",
+      "cell": "A3",
+      "validRects": [
+        [0, 0, 2000, 1000]
+      ],
+      "maskedRects": []
+    }
   }
 ]

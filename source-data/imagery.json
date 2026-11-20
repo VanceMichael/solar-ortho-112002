@@ -10,7 +10,12 @@
         "IR": "t42.pgm",
         "RGB": "v42.ppm"
       },
-      "solve": "P1"
+      "solve": "P1",
+      "attitude": {
+        "yaw": 32.5,
+        "pitch": -61.8,
+        "roll": 0.9
+      }
     }
   },
   {
@@ -33,7 +38,12 @@
       "bands": {
         "IR": "t43.pgm"
       },
-      "solve": "P1"
+      "solve": "P1",
+      "attitude": {
+        "yaw": 33.1,
+        "pitch": -60.4,
+        "roll": 1.4
+      }
     }
   },
   {
@@ -67,7 +77,12 @@
       "bands": {
         "IR": "t44.pgm"
       },
-      "solve": "P2"
+      "solve": "P2",
+      "attitude": {
+        "yaw": 35.0,
+        "pitch": -59.7,
+        "roll": 0.6
+      }
     }
   },
   {
@@ -77,6 +92,34 @@
     "payload": {
       "capture": "C44",
       "name": "t44.pgm",
+      "located": true
+    }
+  },
+  {
+    "record": "imagery-8",
+    "availableFrom": 1,
+    "kind": "index",
+    "payload": {
+      "capture": "C45",
+      "time": "10:06",
+      "bands": {
+        "IR": "t45.pgm"
+      },
+      "solve": "P1",
+      "attitude": {
+        "yaw": 214.6,
+        "pitch": -63.2,
+        "roll": -1.1
+      }
+    }
+  },
+  {
+    "record": "imagery-9",
+    "availableFrom": 1,
+    "kind": "received",
+    "payload": {
+      "capture": "C45",
+      "name": "t45.pgm",
       "located": true
     }
   }

@@ -8,6 +8,8 @@
   },
   "scripts": {
     "start": "node source-server.mjs",
+    "query": "node app/server.mjs",
+    "inspect": "node app/main.mjs",
     "test": "node --test *.test.mjs"
   }
 }
